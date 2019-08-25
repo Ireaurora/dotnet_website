@@ -41,8 +41,8 @@ namespace mywebsite.Controllers
                 var body = "<p>Email From: {0} {1}({3})</p><p>Message:</p><p>{2}</p>";
                 using (MailMessage message = GetMessage())
                 {
-                    message.To.Add(new MailAddress("irenesarigu.wp@gmail.com"));  // recepient
-                    message.From = new MailAddress("irenesarigu.wp@gmail.com");  // sender
+                    message.To.Add(new MailAddress(""));  // recepient
+                    message.From = new MailAddress("");  // sender
                     message.Subject = "Your email subject";
                     message.Body = string.Format(body, model.FirstName, model.LastName, model.Email, model.Feedback);
                     message.IsBodyHtml = true;
@@ -51,8 +51,8 @@ namespace mywebsite.Controllers
                     {
                         var credential = new NetworkCredential
                         {
-                            UserName = "irenesarigu.wp@gmail.com",  // test@gmail.com
-                            Password = "girasole"  // password of your gmail account
+                            UserName = "",  // test@gmail.com
+                            Password = ""  // password of your gmail account
                         };
                         smtp.Credentials = credential;
                         smtp.Host = "smtp.gmail.com";
