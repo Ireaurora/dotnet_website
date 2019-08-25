@@ -28,3 +28,5 @@
 /Users/irene/mvc_projects/mywebsite/mywebsite/obj/Debug/netcoreapp2.2/mywebsite.dll
 /Users/irene/mvc_projects/mywebsite/mywebsite/obj/Debug/netcoreapp2.2/mywebsite.pdb
 /Users/irene/mvc_projects/mywebsite/mywebsite/obj/Debug/netcoreapp2.2/mywebsite.csproj.CopyComplete
+/Users/irene/mvc_projects/mywebsite/mywebsite/obj/Debug/netcoreapp2.2/Razor/Views/Home/Coding.g.cshtml.cs
+/Users/irene/mvc_projects/mywebsite/mywebsite/obj/Debug/netcoreapp2.2/Razor/Views/Home/Sent.g.cshtml.cs
